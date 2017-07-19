@@ -1,5 +1,5 @@
 # docker-gollum
-A Dockerfile to install gollum that supports Chinese
+A docker of gollum that supports Chinese
 
 # start
 
