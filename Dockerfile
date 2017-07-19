@@ -20,5 +20,4 @@ ENV rvm_bin_path=/usr/local/rvm/bin rvm_path=/usr/local/rvm rvm_prefix=/usr/loca
 
 EXPOSE 4567
 
-ENTRYPOINT ["gollum", "/root/wikidata"]
-CMD ["--adapter", "rugged"]
+ENTRYPOINT ["gollum", "/root/wikidata", "--adapter", "rugged"]
